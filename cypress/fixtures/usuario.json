@@ -1,0 +1,10 @@
+{
+  "valido": {
+    "matricula": "2620101",
+    "senha": "12345678"
+  },
+  "invalido": {
+    "matricula": "9999999",
+    "senha": "87654321"
+  }
+}

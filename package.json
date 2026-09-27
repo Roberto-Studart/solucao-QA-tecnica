@@ -1,0 +1,19 @@
+{
+  "name": "solucao-qa-tecnica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automação E2E Cypress + Cucumber",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^14.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step-definitions/**/*.{js,ts}"
+  }
+}
